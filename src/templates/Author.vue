@@ -19,6 +19,7 @@
 import PostItem from '@/components/PostCard'
 import Pagination from '@/components/Pagination'
 import moment from "moment";
+
 export default {
   name: "Author",
   components: {
