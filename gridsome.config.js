@@ -1,6 +1,6 @@
 module.exports = {
   siteName: 'Kimble',
-  siteDescription: "ESL lessons",
+  siteDescription: "ESL Lesson Planning",
   siteUrl: 'https://kimble.netlify.com',
   titleTemplate: `%s | Kimble`,
   icon: 'src/favicon.png',

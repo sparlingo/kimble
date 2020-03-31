@@ -5,13 +5,7 @@
 
 ### Kimble
 
-Along the way, I have been writing a series of articles on my blog [garywoodfine.com](https://garywoodfine.com) 
-about what I have learned playing with Gridsome & Netlify
 
-* [Gridsome – VueJS Static Website Generator](https://garywoodfine.com/gridsome-vuejs-static-website-generator/)
-* [Gridsome – More adventures with the static website generator](https://garywoodfine.com/gridsome-more-adventures-with-the-static-website-generator/)
-* [Gridsome - Using file system markdown files ](https://garywoodfine.com/gridsome-using-file-system-markdown-files/) 
-* [Gridsome – Configuring Custom Tailwindcss ](https://garywoodfine.com/gridsome-configuring-custom-tailwindcss/)
  
  ### Developed, Sponsored and Supported 
  

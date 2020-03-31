@@ -4,10 +4,9 @@
       <div class="py-5 sm:py-18 border-b border-gray-300">
         <header class="text-center mb-8">
           <time :datetime="post.datetime"
-                class="text-gray-700 text-xs mb-2 uppercase">{{ formatPublishDate(post.datetime) }}</time>
+            class="text-gray-700 text-xs mb-2 uppercase">{{ formatPublishDate(post.datetime) }}</time>
           <h2 class="text-gray-700 text-2xl sm:text-3xl leading-tight font-sans mb-1 sm:mb-2">
-            <g-link 
-              :to="`${post.path}/`"
+            <g-link :to="`${post.path}/`"
               class=" text-gray-800 font-bold">{{ post.title }}
             </g-link>
           </h2>

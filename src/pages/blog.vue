@@ -2,10 +2,11 @@
   <Layout>
     <main>
       <section>
-        <div id="posts" class="container mx-auto px-2">
+        <h1 class="text-4xl">Blog</h1>
+        <div id="posts" class="container mx-auto">
           <transition-group name="fade">
-            <post-card
-              v-for="{node} of loadedPosts"
+            <PostCard
+              v-for="{ node } of loadedPosts"
               :key="node.id"
               :post="node"
             />
@@ -29,7 +30,7 @@
 <style scoped>
 .fade-enter-active,
 .fade-leave-active {
-	transition: ease opacity 0.3s;
+	transition: ease opacity 0.5s;
 }
 .fade-enter,
 .fade-leave-to {
@@ -43,7 +44,6 @@ article {
 
 <script>
 import PostCard from '@/components/PostCard'
-import Pagination from '@/components/Pagination'
 
 export default {
   components: {
@@ -63,7 +63,9 @@ export default {
       if (this.currentPage + 1 > this.$page.posts.pageInfo.totalPages) {
         $state.complete()
       } else {
-        const { data } = await this.$fetch(`/blog/${this.currentPage + 1}`)
+        const { data } = await this.$fetch(
+          `/blog/${this.currentPage + 1}`
+        )
         
         if (data.posts.edges.length) {
           this.currentPage = data.posts.pageInfo.currentPage
@@ -79,29 +81,29 @@ export default {
 </script>
 
 <page-query>
-query ($page: Int) {
-  posts: allPost (page: $page, perPage: 6) @paginate {
-    totalCount
-    pageInfo {
-      totalPages
-      currentPage
-    }
-    edges {
-      node {
-        id
-        title
-        timeToRead
-        content
-        excerpt
-        description
-        path
-        tags {
+  query ($page: Int) {
+    posts: allPost (page: $page, perPage: 6) @paginate {
+      totalCount
+      pageInfo {
+        totalPages
+        currentPage
+      }
+      edges {
+        node {
           id
           title
+          timeToRead
+          content
+          excerpt
+          description
           path
+          tags {
+            id
+            title
+            path
+          }
         }
       }
     }
   }
-}
 </page-query>

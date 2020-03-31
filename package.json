@@ -1,43 +1,45 @@
 {
-    "name": "kimble",
-    "private": false,
-    "scripts": {
-        "build": "gridsome build",
-        "develop": "gridsome develop",
-        "explore": "gridsome explore"
-    },
-    "dependencies": {
-        "@gridsome/source-filesystem": "^0.6.2",
-        "@gridsome/source-strapi": "^0.1.0",
-        "@gridsome/transformer-remark": "^0.5.0",
-        "dotenv": "^8.2.0",
-        "gridsome": "^0.7.12",
-        "gridsome-plugin-netlify-cms": "^1.0.9",
-        "moment": "^2.24.0",
-        "netlify-cms": "^2.10.35",
-        "vue-infinite-loading": "^2.4.5",
-        "vue-loader": "^15.9.0"
-    },
-    "description": "An app to manage my ESL lessons",
-    "version": "1.0.0",
-    "main": "gridsome.config.js",
-    "devDependencies": {
-        "gridsome-plugin-tailwindcss": "^2.2.43",
-        "tailwindcss-transitions": "^2.1.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/sparlingo/kimble.git"
-    },
-    "keywords": [
-        "ESL",
-        "gridsome",
-        "lesson planning"
-    ],
-    "author": "Kevin Sparling",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/sparlingo/kimble/issues"
-    },
-    "homepage": "https://github.com/sparlingo/kimble#readme"
+  "name": "kimble",
+  "private": false,
+  "version": "0.1.0",
+  "description": "An app to manage my ESL lessons",
+  "main": "gridsome.config.js",
+  "scripts": {
+    "build": "gridsome build",
+    "develop": "gridsome develop",
+    "explore": "gridsome explore"
+  },
+  "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/source-strapi": "^0.1.0",
+    "@gridsome/transformer-remark": "^0.5.0",
+    "dotenv": "^8.2.0",
+    "gridsome": "^0.7.12",
+    "gridsome-plugin-netlify-cms": "^1.0.9",
+    "moment": "^2.24.0",
+    "netlify-cms": "^2.10.35",
+    "vue-infinite-loading": "^2.4.5",
+    "vue-loader": "^15.9.0"
+  },
+  "devDependencies": {
+    "gridsome-plugin-tailwindcss": "^2.2.43",
+    "tailwindcss-transitions": "^2.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/sparlingo/kimble.git"
+  },
+  "keywords": [
+    "ESL",
+    "gridsome",
+    "lesson planning",
+    "education",
+    "teaching"
+  ],
+  "author": "Kevin Sparling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparlingo/kimble/issues"
+  },
+  "homepage": "https://github.com/sparlingo/kimble#readme"
 }

@@ -25,6 +25,7 @@
 <script>
 import Tags from '@/components/Tags';
 import Author from "@/components/Author";
+
 export default {
   components: {
     Author,
@@ -35,23 +36,23 @@ export default {
 </script>
 
 <page-query>
-query Post ($path: String) {
-  post (path: $path) {
-    title
-    path
-    content
-    description
-    timeToRead
-    author {
-      id
+  query Post ($path: String) {
+    post (path: $path) {
       title
       path
-    }
-    tags {
-      id
-      title
-      path
+      content
+      description
+      timeToRead
+      author {
+        id
+        title
+        path
+      }
+      tags {
+        id
+        title
+        path
+      }
     }
   }
-}
 </page-query>
