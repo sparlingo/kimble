@@ -18,7 +18,6 @@
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "moment": "^2.24.0",
     "netlify-cms": "^2.10.35",
-    "vue-infinite-loading": "^2.4.5",
     "vue-loader": "^15.9.0"
   },
   "devDependencies": {
