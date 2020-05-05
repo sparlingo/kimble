@@ -8,9 +8,9 @@
         </div>
       </header>
       <section>
-        <post-item v-for="edge in $page.author.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
+        <PostItem v-for="edge in $page.author.belongsTo.edges" :key="edge.node.id" :post="edge.node" />
       </section>
-      <pagination :base="`${$page.author.path}`" :info="$page.author.belongsTo.pageInfo" v-if="$page.author.belongsTo.pageInfo.totalPages > 1" />
+      <Pagination :base="`${$page.author.path}`" :info="$page.author.belongsTo.pageInfo" v-if="$page.author.belongsTo.pageInfo.totalPages > 1" />
     </main>
   </Layout>
 </template>
