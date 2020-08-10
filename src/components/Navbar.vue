@@ -16,6 +16,7 @@
     <div class="navbar-start">
       <g-link to="/" class="navbar-item">Home</g-link>
       <g-link to="/blog/" class="navbar-item">Blog</g-link>
+      <g-link to="/classes/" class="navbar-item">Classes</g-link>
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           More
@@ -26,7 +27,7 @@
             About
           </a>
           <a class="navbar-item">
-            Jobs
+            What is this?
           </a>
           <a class="navbar-item">
             Contact
