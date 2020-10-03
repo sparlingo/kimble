@@ -9,6 +9,7 @@
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
     "buefy": "^0.8.20",
-    "gridsome": "^0.7.21"
+    "gridsome": "^0.7.21",
+    "roughjs": "^4.3.1"
   }
 }
