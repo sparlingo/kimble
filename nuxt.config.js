@@ -41,7 +41,9 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    '@nuxt/content',
+    // FontAwesome 5 icons
+    'nuxt-fontawesome'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)

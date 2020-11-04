@@ -19,7 +19,7 @@
     "axios": "^0.21.0",
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "nuxt-buefy": "^0.4.3",
+    "nuxt-buefy": "^0.4.4",
     "nuxt-fontawesome": "^0.4.0",
     "nuxt-i18n": "^6.15.4"
   },
@@ -27,7 +27,7 @@
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.10.0",
+    "eslint": "^7.12.1",
     "eslint-plugin-nuxt": "^1.0.0"
   }
 }
