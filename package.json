@@ -11,23 +11,24 @@
     "lint": "npm run lint:js"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^1.11.0",
     "@nuxtjs/auth": "^4.9.1",
     "@nuxtjs/axios": "^5.12.2",
     "@nuxtjs/content": "^0.3.0",
     "@nuxtjs/pwa": "^3.0.2",
     "axios": "^0.21.0",
-    "core-js": "^3.6.5",
+    "core-js": "^3.7.0",
     "nuxt": "^2.14.6",
     "nuxt-buefy": "^0.4.4",
     "nuxt-fontawesome": "^0.4.0",
-    "nuxt-i18n": "^6.15.4"
+    "nuxt-i18n": "^6.15.4",
+    "typescript": "^4.1.2"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^3.1.0",
     "@nuxtjs/eslint-module": "^2.0.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.12.1",
+    "eslint": "^7.14.0",
     "eslint-plugin-nuxt": "^1.0.0"
   }
 }
