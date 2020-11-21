@@ -5,7 +5,7 @@
         title="Free"
         icon="github"
       >
-        Open source on <a href="https://github.com/buefy/buefy">
+        Repostitory at <a href="https://github.com/sparlingo/ceg">
           GitHub
         </a>
       </card>
@@ -15,8 +15,8 @@
         icon="cellphone-link"
       >
         <b class="has-text-grey">
-          Every
-        </b> component is responsive
+          Wechat thing
+        </b>
       </card>
 
       <card
