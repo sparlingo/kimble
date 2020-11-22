@@ -1,12 +1,14 @@
- <template>
-<div>
-  <Navbar />
-  <transition name="fade" appear>
-    <main> <!-- a wrapper for slot is needed -->
-      <slot /> <!-- the content -->
-    </main>
-  </transition>
-</div>
+<template>
+  <div>
+    <Navbar />
+    <div class="paper container">
+      <transition name="fade" appear>
+        <main> <!-- a wrapper for slot is needed -->
+          <slot /> <!-- the content -->
+        </main>
+      </transition>
+    </div>
+  </div>
 </template>
 
 <script>

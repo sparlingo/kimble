@@ -1,52 +1,22 @@
 <template>
-<nav class="navbar" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand">
-    <a class="navbar-item" href="https://bulma.io" target="_blank">
-      <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
-    </a>
-
-    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
+<nav class="border fixed split-nav" role="navigation" aria-label="main navigation">
+  <div class="nav-brand">
+    <h3><a href="#">Kimble</a></h3>
   </div>
-
-  <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-      <g-link to="/" class="navbar-item">Home</g-link>
-      <g-link to="/blog/" class="navbar-item">Blog</g-link>
-      <g-link to="/classes/" class="navbar-item">Classes</g-link>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            About
-          </a>
-          <a class="navbar-item">
-            What is this?
-          </a>
-          <a class="navbar-item">
-            Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            Report an issue
-          </a>
-        </div>
-      </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <label for="collapsible1">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </label>
+    <div class="collapsible-body">
+      <ul class="inline">
+        <li><g-link to="/">Home</g-link></li>
+        <li><g-link to="/classes">Classes</g-link></li>
+        <li><g-link to="/blog">Blog</g-link></li>
+      </ul>
     </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-           
-        </div>
-      </div>
-    </div>
-  </div>
+  </div>  
 </nav>
 </template>
