@@ -1,7 +1,10 @@
 <template>
   <Layout>
-    <h1>About us</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error doloremque omnis animi, eligendi magni a voluptatum, vitae, consequuntur rerum illum odit fugit assumenda rem dolores inventore iste reprehenderit maxime! Iusto.</p>
+    <h1>What is this?</h1>
+    <p>Anyone who's worked at a small training center gets it,
+      no particular piece of software tends to do exactly what
+      you need to do day-to-day. I hope this can help.
+    </p>
   </Layout>
 </template>
 

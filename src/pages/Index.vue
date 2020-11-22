@@ -3,11 +3,10 @@
     <br />
     <br />
     <div class="container">
-      <h1 class="title">Kimble</h1>
-      <h2 class="subtitle">A demo of a web-based class managment system</h2>
+      <h2>Kimble</h2>
+      <h3>A web-based class managment system</h3>
     </div>
     <hr />
-    <br />
     <div class="container">
     
     </div>
