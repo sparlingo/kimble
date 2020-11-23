@@ -1,41 +1,16 @@
 <template>
-  <section class="section">
-    <div class="columns is-mobile">
-      <card
+  <section class="things">
+    <div class="row">
+      <Card
         title="Free"
         icon="github"
       >
         Repostitory at <a href="https://github.com/sparlingo/ceg">
           GitHub
         </a>
-      </card>
+      </Card>
 
-      <card
-        title="Responsive"
-        icon="cellphone-link"
-      >
-        <b class="has-text-grey">
-          Wechat thing
-        </b>
-      </card>
-
-      <card
-        title="Modern"
-        icon="alert-decagram"
-      >
-        Built with <a href="https://vuejs.org/">
-          Vue.js
-        </a> and <a href="http://bulma.io/">
-          Bulma
-        </a>
-      </card>
-
-      <card
-        title="Lightweight"
-        icon="arrange-bring-to-front"
-      >
-        No other internal dependency
-      </card>
+      
     </div>
   </section>
 </template>
