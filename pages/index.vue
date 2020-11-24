@@ -3,14 +3,9 @@
     <div class="row">
       <Card
         title="Free"
-        icon="github"
       >
-        Repostitory at <a href="https://github.com/sparlingo/ceg">
-          GitHub
-        </a>
+       Something
       </Card>
-
-      
     </div>
   </section>
 </template>
