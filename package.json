@@ -17,7 +17,7 @@
     "@nuxtjs/sanity": "^0.4.2",
     "@sanity/client": "^2.0.9",
     "axios": "^0.21.0",
-    "core-js": "^3.7.0",
+    "core-js": "^3.8.0",
     "nuxt": "^2.14.6",
     "nuxt-i18n": "^6.15.4",
     "papercss": "^1.8.1"
