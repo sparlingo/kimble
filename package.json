@@ -11,7 +11,7 @@
   "dependencies": {
     "@nuxt/content": "^1.11.0",
     "@nuxtjs/auth": "^4.9.1",
-    "@nuxtjs/axios": "^5.12.2",
+    "@nuxtjs/axios": "^5.12.3",
     "@nuxtjs/content": "^0.3.0",
     "@nuxtjs/pwa": "^3.0.2",
     "@nuxtjs/sanity": "^0.4.2",
