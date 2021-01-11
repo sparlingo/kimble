@@ -14,7 +14,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "@nuxtjs/content": "^0.3.0",
     "@nuxtjs/pwa": "^3.3.4",
-    "@nuxtjs/sanity": "^0.4.2",
+    "@nuxtjs/sanity": "^0.5.0",
     "@sanity/client": "^2.1.4",
     "axios": "^0.21.0",
     "chalk": "^3.0.0",
