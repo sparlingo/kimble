@@ -1362,12 +1362,13 @@
     serve-static "^1.14.1"
     workbox-cdn "^5.1.4"
 
-"@nuxtjs/sanity@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@nuxtjs/sanity/-/sanity-0.4.2.tgz#25751faf3576eca36c1034da97b5a3333cc0b9ee"
-  integrity sha512-VzXvrohw7l13bif673UZokUoTX5ZzQcfrO4udPtst+wxMniFgwPWra3vX4SNChDZxmR3BAWAzehixYdj/14D7Q==
+"@nuxtjs/sanity@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@nuxtjs/sanity/-/sanity-0.6.1.tgz#f7c23b4d4e30902b0912ec8e71ff1096035cd785"
+  integrity sha512-/tL4dsMfceI2VmVbGTrXdILtNwBXSLq8kOE2KOPsHmintsr2e7965uvzAIv/vKRuDc9f1Tx04b3Jhwh3F+zVJQ==
   dependencies:
     defu "3.2.2"
+    upath "^2.0.1"
 
 "@nuxtjs/youch@^4.2.3":
   version "4.2.3"
