@@ -21,7 +21,7 @@
     "consola": "^2.15.0",
     "core-js": "^3.8.2",
     "nuxt": "^2.14.12",
-    "nuxt-i18n": "^6.17.0",
+    "nuxt-i18n": "^6.19.0",
     "papercss": "^1.8.2"
   },
   "devDependencies": {}
