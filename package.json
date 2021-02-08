@@ -9,19 +9,19 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "^1.11.1",
+    "@nuxt/content": "^1.12.0",
     "@nuxtjs/auth": "^4.9.1",
-    "@nuxtjs/axios": "^5.12.5",
+    "@nuxtjs/axios": "^5.13.0",
     "@nuxtjs/content": "^0.3.0",
-    "@nuxtjs/pwa": "^3.3.4",
+    "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/sanity": "^0.4.2",
-    "@sanity/client": "^2.1.4",
+    "@sanity/client": "^2.2.6",
     "axios": "^0.21.0",
     "chalk": "^3.0.0",
-    "consola": "^2.15.0",
-    "core-js": "^3.8.2",
+    "consola": "^2.15.3",
+    "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
-    "nuxt-i18n": "^6.17.0",
+    "nuxt-i18n": "^6.20.0",
     "papercss": "^1.8.2"
   },
   "devDependencies": {}
