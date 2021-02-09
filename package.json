@@ -17,7 +17,7 @@
     "@nuxtjs/sanity": "^0.4.2",
     "@sanity/client": "^2.2.6",
     "axios": "^0.21.0",
-    "chalk": "^3.0.0",
+    "chalk": "^4.1.0",
     "consola": "^2.15.3",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
