@@ -12,10 +12,12 @@
 </template>
 
 <script>
+import { groq } from '@nuxtjs/sanity'
+
+const query = groq`{ "posts": *[_type == "post"] }`
 
 export default {
   asyncData({ $sanity }) {
-    const query = '{ "posts": *[_type == "post"] }'
     return $sanity.fetch(query)
   }
 }

@@ -31,6 +31,9 @@ export default {
   buildModules: [
     '@nuxtjs/sanity'
   ],
+  sanity: {
+    
+  },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
