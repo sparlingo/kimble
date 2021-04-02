@@ -1,6 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: 'static',
+  target: 'server',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -39,7 +39,7 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    '@nuxtjs/sanity'
+    //'@nuxtjs/sanity'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
