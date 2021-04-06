@@ -1,6 +1,6 @@
 {
-  "name": "cegNuxt",
-  "version": "1.0.0",
+  "name": "ceg-nuxt",
+  "version": "0.2.0",
   "private": true,
   "scripts": {
     "dev": "nuxt",
