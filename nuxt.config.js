@@ -29,11 +29,7 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@nuxtjs/sanity'
   ],
-  sanity: {
-    
-  },
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
     // https://go.nuxtjs.dev/axios
@@ -41,8 +37,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content',
-    //'@nuxtjs/sanity'
+    '@nuxt/content'
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
