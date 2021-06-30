@@ -1,7 +1,7 @@
 <template>
   <div>
     <Navbar />
-    <div class="paper container">
+    <div class="paper container-lg">
       <transition name="fade" appear>
         <main>
           <Nuxt />
@@ -28,6 +28,9 @@
   }
   .fade-enter {
     opacity: 0;
+  }
+  .container-lg {
+    margin-top: 2.5em;
   }
   .container {
     margin-top: 1.5em;

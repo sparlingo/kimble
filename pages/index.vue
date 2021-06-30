@@ -2,9 +2,10 @@
   <section class="things">
     <div class="row">
       <Card
-        title="Free"
+        :title="page.title"
+        :description="page.description"
       >
-       Something
+       <!-- //<nuxt-content :document="page" /> -->
       </Card>
     </div>
   </section>
@@ -15,6 +16,13 @@ import Card from '~/components/Card'
 
 export default {
   name: 'HomePage',
+  async asyncData ({ $content }) {
+    const page = await $content('home').fetch()
+
+    return {
+      page
+    }
+  },
 
   components: {
     Card
