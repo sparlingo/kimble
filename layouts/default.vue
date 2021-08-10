@@ -8,7 +8,7 @@
         </main>
       </transition>
     </div>
-    <div class="container">
+    <div class="paper container-md">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -53,9 +53,9 @@ export default {
           to: { name: 'index' }
         },
         {
-          title: 'Inspire',
+          title: 'Classes',
           icon: 'lightbulb',
-          to: { name: 'inspire' }
+          to: { name: 'classes' }
         }
       ]
     }

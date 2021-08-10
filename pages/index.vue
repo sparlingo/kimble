@@ -2,11 +2,20 @@
   <section class="things">
     <div class="row">
       <Card
-        :title="page.title"
-        :description="page.description"
-      >
-       <!-- //<nuxt-content :document="page" /> -->
-      </Card>
+        :title="mcd.title"
+        :subtitle="mcd.subtitle"
+        :description="mcd.description"
+      />
+      <Card
+        :title="kfc.title"
+        :subtitle="kfc.subtitle"
+        :description="kfc.description"
+      />
+      <Card
+        :title="pizza.title"
+        :subtitle="pizza.subtitle"
+        :description="pizza.description"
+      />
     </div>
   </section>
 </template>
@@ -17,10 +26,14 @@ import Card from '~/components/Card'
 export default {
   name: 'HomePage',
   async asyncData ({ $content }) {
-    const page = await $content('home').fetch()
+    const mcd = await $content('mcdonalds').fetch()
+    const kfc = await $content('kfc').fetch()
+    const pizza = await $content('pizzahut').fetch()
 
     return {
-      page
+      mcd,
+      kfc,
+      pizza
     }
   },
 
