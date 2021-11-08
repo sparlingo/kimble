@@ -19,7 +19,7 @@
     "nuxt": "^2.15.7",
     "nuxt-i18n": "^6.27.2",
     "papercss": "^1.8.2",
-    "webpack": "^4.46.0"
+    "webpack": "^5.62.1"
   },
   "devDependencies": {}
 }
