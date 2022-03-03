@@ -18,13 +18,13 @@
 
 export default {
   name: 'ClassPage',
-  async asyncData ({ $content }) {
-    const mcd = await $content('mcdonalds')
+  // async asyncData ({ $content }) {
+  //   const mcd = await $content('mcdonalds')
 
-    return {
-      mcd
-    }
-  }
+  //   return {
+  //     mcd
+  //   }
+  // }
 }
 </script>
 

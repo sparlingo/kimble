@@ -1,7 +1,7 @@
 <template>
   <section class="things">
     <div class="row">
-      <Card
+      <!-- <Card
         :title="mcd.title"
         :subtitle="mcd.subtitle"
         :description="mcd.description"
@@ -15,7 +15,7 @@
         :title="pizza.title"
         :subtitle="pizza.subtitle"
         :description="pizza.description"
-      />
+      /> -->
     </div>
   </section>
 </template>
@@ -25,17 +25,17 @@ import Card from '~/components/Card'
 
 export default {
   name: 'HomePage',
-  async asyncData ({ $content }) {
-    const mcd = await $content('mcdonalds').fetch()
-    const kfc = await $content('kfc').fetch()
-    const pizza = await $content('pizzahut').fetch()
+  // async asyncData ({ $content }) {
+  //   const mcd = await $content('mcdonalds').fetch()
+  //   const kfc = await $content('kfc').fetch()
+  //   const pizza = await $content('pizzahut').fetch()
 
-    return {
-      mcd,
-      kfc,
-      pizza
-    }
-  },
+  //   return {
+  //     mcd,
+  //     kfc,
+  //     pizza
+  //   }
+  // },
 
   components: {
     Card

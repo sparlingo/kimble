@@ -1,7 +1,7 @@
 <template>
   <nav class="border fixed split-nav" role="navigation" aria-label="main navigation">
     <div class="nav-brand">
-      <h3><NuxtLink to="/">KS</NuxtLink></h3>
+      <h3><NuxtLink to="/">UofC: MSc in DS</NuxtLink></h3>
     </div>
     <div class="collapsible">
       <input id="collapsible1" type="checkbox" name="collapsible1">
