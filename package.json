@@ -15,7 +15,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "chalk": "^5.0.0",
     "consola": "^2.15.3",
-    "core-js": "^3.21.1",
+    "core-js": "^3.22.6",
     "nuxt": "^2.15.8",
     "papercss": "^1.8.3",
     "webpack": "^5.69.1"
