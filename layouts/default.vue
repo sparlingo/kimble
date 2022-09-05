@@ -32,9 +32,6 @@
   .container-lg {
     margin-top: 2.5em;
   }
-  .container {
-    margin-top: 1.5em;
-  }
 </style>
 
 <script>

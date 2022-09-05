@@ -1,5 +1,5 @@
 ---
-title: 'McDonald\'s'
+title: McDonald\'s
 subtitle: Yitiancun
 description: 'K3 class, Mon & Wed @ 5:00'
 ---
