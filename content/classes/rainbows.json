@@ -2,7 +2,11 @@
   "name": ["Rainbows"],
   "students": [
     {
-      "name": "",
+      "name": "Ariel",
+      "birthdate": ""
+    },
+    {
+      "name": "Austin",
       "birthdate": ""
     },
     {
@@ -10,30 +14,26 @@
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "David",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Jayden",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Johnny",
       "birthdate": ""
     },
     {
-      "name": "",
-      "birthdate": ""
-    },
-    {
-      "name": "",
+      "name": "Joyce",
       "birthdate": ""
     },{
-      "name": "",
+      "name": "Kathy",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Lexie",
       "birthdate": ""
     },
     {
@@ -41,26 +41,39 @@
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Luna",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Messie",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Philip",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Priscilla",
       "birthdate": ""
     },
     {
-      "name": "",
+      "name": "Richard",
       "birthdate": ""
-    },{
-      "name": "",
+    },
+    {
+      "name": "Rola",
+      "birthdate": ""
+    },
+    {
+      "name": "Roxy",
+      "birthdate": ""
+    },
+    {
+      "name": "Ryan",
+      "birthdate": ""
+    },
+    {
+      "name": "Stephen",
       "birthdate": ""
     }
   ]
