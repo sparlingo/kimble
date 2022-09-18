@@ -1,0 +1,101 @@
+{
+
+  "name": ["Rainbows"],
+  "slug": "rainbows",
+  "students": [
+    {
+      "name": "Ariel",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Austin",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Catherine",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "David",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Jayden",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Johnny",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Joyce",
+      "birthdate": "",
+      "pic": ""
+    },{
+      "name": "Kathy",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Lexie",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Liam",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Luna",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Messie",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Philip",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Priscilla",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Richard",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Rola",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Roxy",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Ryan",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Stephen",
+      "birthdate": "",
+      "pic": ""
+    }
+  ]
+}
