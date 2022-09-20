@@ -13,12 +13,14 @@
 import Card from '~/components/Card'
 export default {
   Card,
-  // async asyncData({ $content }) {
-  //   const groups = $content('classes')
-  //     .only(['name', 'slug'])
-  //     .sortBy('name')
-  //   return { groups }
-  // }
+  async asyncData({ $content, params }) {
+    const groups = await $content({deep: true})
+      .only(['classes'])
+      .sortBy('name', 'asc')
+      .fetch()
+    console.log(groups)
+    return groups
+  }
 }
 
 </script>
