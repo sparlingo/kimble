@@ -1,0 +1,16 @@
+{
+  "name": ["Ultramen"],
+  "slug": "ultramen",
+  "students": [
+    {
+      "name": "Leo",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Max",
+      "birthdate": "",
+      "pic": ""
+    }
+  ]
+}

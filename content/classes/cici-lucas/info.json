@@ -1,0 +1,16 @@
+{
+  "name": ["Grandma & Grandpa"],
+  "slug": "grandma-grandpa",
+  "students": [
+    {
+      "name": "Cici",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Lucas",
+      "birthdate": "",
+      "pic": ""
+    }
+  ]
+}

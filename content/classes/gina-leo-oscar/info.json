@@ -1,0 +1,21 @@
+{
+  "name": ["The Three Little Pigs"],
+  "slug": "three-little-pigs",
+  "students": [
+    {
+      "name": "Gina",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Leo",
+      "birthdate": "",
+      "pic": ""
+    },
+    {
+      "name": "Oscar",
+      "birthdate": "",
+      "pic": ""
+    }
+  ]
+}
