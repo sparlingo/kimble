@@ -18,7 +18,6 @@ export default {
       .only(['classes'])
       .sortBy('name', 'asc')
       .fetch()
-    console.log(groups)
     return groups
   }
 }

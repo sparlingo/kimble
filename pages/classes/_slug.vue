@@ -1,15 +1,17 @@
 <template>
-  <article>
-    <h2>Group Name</h2>
-  </article>
+  <div>
+    <!-- <pre>{{info}}</pre> -->
+    <h1>{{info.slug}}</h1>
+    <p>{{info.body}}</p>
+  </div>
 </template>
 
 <script>
   export default {
     async asyncData({ $content, params }) {
-      const group = await $content('classes', params.slug).only(['students']).fetch()
-      console.log
-      return { group }
+      const info = await $content('classes', params.slug).fetch()
+      console.log(info)
+      return { info }
     }
   }
 </script>
