@@ -1,10 +1,11 @@
 ---
 slug: cici-lucas
-name: Grandma & Grandpa
+title: Grandma & Grandpa
+description: Tuesday & Friday @ 17:00
 ---
 
 ## 2022-10-11
-
+There is stuff here
 ## 2022-10-15
 
 ## 2022-10-18

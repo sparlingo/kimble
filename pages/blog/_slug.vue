@@ -1,7 +1,7 @@
 <template>
   <article>
-    <img :src="require(`~/assets/images/${article.img}`)" 
-      :alt="article.alt" 
+    <img :src="require(`~/assets/images/${article.img}`)"
+      :alt="article.alt"
       class="float-left"
     />
     <h1>{{ article.title }}</h1>
@@ -9,7 +9,7 @@
     <p>Article last updated: {{ formatDate(article.updatedAt )}}</p>
 
     <nuxt-content :document="article" />
-    
+
   </article>
 </template>
 
@@ -27,6 +27,5 @@
       return { article }
     }
   }
-  
 
 </script>

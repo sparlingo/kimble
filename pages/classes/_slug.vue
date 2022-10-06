@@ -1,9 +1,10 @@
 <template>
-  <div>
-    <!-- <pre>{{info}}</pre> -->
-    <h1>{{info.slug}}</h1>
-    <p>{{info.body}}</p>
-  </div>
+  <article>
+    <pre>{{info}}</pre>
+    <p>{{ info.title }}</p>
+    <nuxt-content :document="info" />
+
+  </article>
 </template>
 
 <script>
@@ -14,4 +15,5 @@
       return { info }
     }
   }
+
 </script>
