@@ -1,8 +1,8 @@
 <template>
   <article>
-    <pre>{{info}}</pre>
+    <!-- <pre>{{info}}</pre> -->
     <p>{{ info.title }}</p>
-    <nuxt-content :document="info" />
+    <nuxt-content :document="info" tag="article" />
 
   </article>
 </template>
